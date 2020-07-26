@@ -1,5 +1,5 @@
 const auth = {
-    Auth0_ClientID:"LPEVhkKuK4BHWS4zky11RFQpJuYftlnf",
-    Auth0_Domain:"configserver.us.auth0.com"
+    Auth0_ClientID:"secret",
+    Auth0_Domain:"secret"
 }
 export default auth;
