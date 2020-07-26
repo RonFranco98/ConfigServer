@@ -3,7 +3,7 @@ const azure = require('azure-storage');
 var AsyncAzure = require("./AzureAsyncTableAPI");
 
 //set connection details
-const tableService = azure.createTableService("veeamil","+E6F9MQ3TBCkdrcmrzbwjPHLPft8f2WzdywBbFLEw7WRATPumTz3/4y03zFuGipcGuYr/QrkvWCytmpksZWXVA==");
+const tableService = azure.createTableService("secret" , "secret");
 
 //insert to table with the Key as rowKey and Obj as value (conver obj to Json)
 exports.insertToTable = function(Key,Obj,tableName){
